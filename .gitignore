@@ -1,0 +1,14 @@
+images
+labels
+test_images
+tmp
+train_annotations
+train_images
+venv
+.python-version
+readme.txt
+sample_submit.json
+train.txt
+val.txt
+_test.txt
+_train.txt
