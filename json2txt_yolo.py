@@ -52,7 +52,7 @@ for json_file in json_files:
                     v_yolo[3] = round((v[3] - v[1])/img_h, 6)
 
                     f.write('0 ')
-                    f.write(",".join(map(str, v_yolo)))
+                    f.write(" ".join(map(str, v_yolo)))
                     f.write('\n')
             elif json_load_key == "Breezer School":
                 breezer = json_load['labels']['Breezer School']
@@ -65,7 +65,7 @@ for json_file in json_files:
                     v_yolo[3] = round((v[3] - v[1])/img_h, 6)
 
                     f.write('1 ')
-                    f.write(",".join(map(str, v_yolo)))
+                    f.write(" ".join(map(str, v_yolo)))
                     f.write('\n')
             else:
                 print("ignored key:", json_load_key)

@@ -12,3 +12,5 @@ train.txt
 val.txt
 _test.txt
 _train.txt
+draw_bbox
+draw_bbox_yolo
